@@ -1,0 +1,20 @@
+/*********************************************
+ * OPL 12.9.0.0 Data
+ * Author: Moris Zakay 
+ * Creation Date: 25/8/2020 at 15:11:14
+ *********************************************/
+n = 25;
+Cash = 35000;
+CarRentPerDay = 160;
+GasPrice = 5;
+timeRunCplexInMinute = 180;
+
+SheetConnection AllData("ProjectData.xlsx");
+
+city_Name from SheetRead(AllData, "'Time'!A2:A26");
+Travel_Time from SheetRead(AllData, "'Time'!B2:Z26");
+Travel_Distance from SheetRead(AllData, "'Dis'!B2:Z26");
+CostPerDayAllCities from SheetRead(AllData, "'LimitInCity'!C2:C26");
+MaxTimeInCityAllCities from SheetRead(AllData, "'LimitInCity'!B2:B26");
+PreferenceToVisit from SheetRead(AllData, "'preference to visit'!A2:Y6");
+
