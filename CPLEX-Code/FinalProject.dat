@@ -1,13 +1,16 @@
 /*********************************************
  * OPL 12.9.0.0 Data
- * Author: Moris Zakay 
- * Creation Date: 25/8/2020 at 15:11:14
+ * Author: mnmz4
+ * Creation Date: 25 баев„ 2020 at 15:11:14
  *********************************************/
 n = 25;
-Cash = 35000;
+Cash = 40000;
+min_days_of_travle = 300;
+max_days_of_travle = 365;
+minDaysInCity = 7;
 CarRentPerDay = 160;
 GasPrice = 5;
-timeRunCplexInMinute = 180;
+timeRunCplexInMinute = 5;
 
 SheetConnection AllData("ProjectData.xlsx");
 

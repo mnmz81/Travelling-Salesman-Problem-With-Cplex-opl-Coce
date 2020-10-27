@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>this is TSP for Moris in japan</description>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="FinalProject.mod" type="model">
+			</ref>
+			<ref name="FinalProject.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
